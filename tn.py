@@ -1,6 +1,5 @@
 import torch
 import torch_npu
-torch_npu.npu.set_device("npu:0")
 
 import clip
 from PIL import Image
